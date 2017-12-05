@@ -11,17 +11,17 @@ public class MainController {
 
     //跳转到登录页面
     @RequestMapping(value = "/")
-    public String loginPage(){
+    public String loginPage() {
         return "login";
     }
 
     @RequestMapping(value = "/index")
-    public String mainPage(){
+    public String mainPage() {
         return "index";
     }
 
     @RequestMapping(value = "/index_v148b2")
-    public String welcomePage(){
+    public String welcomePage() {
         return "index_v148b2";
     }
 
