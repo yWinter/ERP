@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
+    //跳转到登录页面
     @RequestMapping(value = "/")
     public String loginPage(){
         return "login";
